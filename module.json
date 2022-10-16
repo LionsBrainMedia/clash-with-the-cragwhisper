@@ -1,0 +1,72 @@
+{
+  "id": "clash-with-the-cragwhisper",
+  "title": "Clash with the Cragwhisper",
+  "description": "1st-level adventure Clash with the Cragwhisper.",
+  "url": "https://github.com/LionsBrainMedia/clash-with-the-cragwhisper",
+  "version": "0.0",
+  "authors": [
+    {"name": "W. Brian Lane"}
+  ],
+  "compatibility": {
+    "minimum": "10.285",
+    "verified": "10.285"
+  },
+  "relationships": {
+    "systems": [{
+      "id": "pf2e",
+      "type": "system",
+      "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+      "compatibility": {
+        "minimum": "4.2.6"
+      }
+    }]
+  },
+  "flags": {
+  "clash-with-the-cragwhisper": {
+    "pf2e-homebrew": {
+      "featTraits": {
+        "half-ogre": {
+          "label": "Half-Ogre",
+          "description": "This feat is available to PCs with the half-ogre versatile heritage."
+        }
+      }}}},
+  "packs": [{
+      "label": "Clash with the Cragwhisper - Scenes",
+      "type": "Scene",
+      "name": "clash-with-the-cragwhisper-scenes",
+      "path": "./packs/clash-with-the-cragwhisper-scenes.db",
+      "system": "pf2e",
+      "package": "clash-with-the-cragwhisper",
+      "private": false
+    },
+  {
+      "label": "Clash with the Cragwhisper - Actors",
+      "type": "Actor",
+      "name": "clash-with-the-cragwhisper-actors",
+      "path": "./packs/clash-with-the-cragwhisper-actors.db",
+      "system": "pf2e",
+      "package": "clash-with-the-cragwhisper",
+      "private": false
+    },
+  {
+      "label": "Clash with the Cragwhisper - Adventure Toolbox",
+      "type": "Item",
+      "name": "clash-with-the-cragwhisper-adventure-toolbox",
+      "path": "./packs/clash-with-the-cragwhisper-adventure-toolbox.db",
+      "system": "pf2e",
+      "package": "clash-with-the-cragwhisper",
+      "private": false
+    },
+  {
+      "label": "Clash with the Cragwhisper - Reward Actions",
+      "type": "Item",
+      "name": "clash-with-the-cragwhisper-reward-actions",
+      "path": "./packs/clash-with-the-cragwhisper-reward-actions.db",
+      "system": "pf2e",
+      "package": "clash-with-the-cragwhisper",
+      "private": false
+    }],
+  "url": "https://github.com/LionsBrainMedia/clash-with-the-cragwhisper",
+  "manifest": "https://raw.githubusercontent.com/LionsBrainMedia/clash-with-the-cragwhisper/master/module.json",
+  "download": "https://github.com/LionsBrainMedia/clash-with-the-cragwhisper/archive/refs/heads/main.zip"
+}
